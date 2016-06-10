@@ -98,7 +98,7 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
             url += "&product="+req.params.product;
             break;
     }
-    console.log(url);
+
     request(url, function (error,response,body) {
         if(!error && response.statusCode==200){
             body = JSON.parse(body);
@@ -120,7 +120,6 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
                     break;
 
                 case "bugzilla":
-                    console.log(body)
                     body = body.bugs;
                     var n;
                     for(n in body){
