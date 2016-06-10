@@ -89,7 +89,7 @@ router.get("/:service/:id/repos", function(req,res){
                         repo.url         = body[x].html_url;
                         repo.service     = "github"
                         repo.languages   = body[x].lang_url;
-                        console.log(repo);
+
                         /* Creates the model to save to database */
                         var myRepo = new repoModel(repo);
                         myRepo.save(function(err){

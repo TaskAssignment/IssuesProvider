@@ -128,37 +128,39 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
                     body = body.bugs;
                     var n;
                     for(n in body){
-                        var bug = new Object();
-                        bug.id    = body[n].id;
-                        bug.title = body[n].alias;
-                        bug.body  = body[n].description;
-                        bug.reporter = body[n].cc_list;
-                        bug.url      = body[n].url;
-                        bug.severity = body[n].severity;
-                        bug.status   = body[n].status;
-                        bug.open     = body[n].open;
-                        bug.classification = body[n].classification;
-                        bug.component      = body[n].component;
-                        bug.creationTime   = body[n].creation_time;
-                        bug.assignedEmail  = body[n].assigned_to_detail.email;
-                        bug.creatorEmail   = body[n].creator_detail.email;
-                        bug.cc      = body[n].cc;
-                        bug.version = body[n].version;
-                        bug.op_sys  = body[n].op_sys;
-                        bug.product = body[n].product;
 
                         var saveRepostoArray = function(history){
+                            var bug = new Object();
+                            bug.id    = body[n].id;
+                            bug.title = body[n].alias;
+                            bug.body  = body[n].description;
+                            bug.reporter = body[n].cc_list;
+                            bug.url      = body[n].url;
+                            bug.severity = body[n].severity;
+                            bug.status   = body[n].status;
+                            bug.open     = body[n].open;
+                            bug.classification = body[n].classification;
+                            bug.component      = body[n].component;
+                            bug.creationTime   = body[n].creation_time;
+                            bug.assignedEmail  = body[n].assigned_to_detail.email;
+                            bug.creatorEmail   = body[n].creator_detail.email;
+                            bug.cc      = body[n].cc;
+                            bug.version = body[n].version;
+                            bug.op_sys  = body[n].op_sys;
+                            bug.product = body[n].product;
                             bug.history = history.bugs;
+
+                            var bugs = new bugzillaModel(bug);
+                            bugs.save(function(err){
+                                if(err)
+                                    console.log("error!");
+                                console.log("saved!")
+                            });
                         };
 
-                        doCall("https://bugzilla.mozilla.org/rest/bug/"+body[n].id+"/history", saveRepostoArray);
 
-                        var bugs = new bugzillaModel(bug);
-                        bugs.save(function(err){
-                            if(err)
-                                console.log("error!");
-                            console.log("saved!")
-                        });
+
+                        doCall("https://bugzilla.mozilla.org/rest/bug/"+body[n].id+"/history", saveRepostoArray);
                     }
                     break;
             }
