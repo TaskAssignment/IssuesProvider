@@ -3,12 +3,12 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="28" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="85" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="174" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="175" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1789bd-007b-4652-bc54-76a52349984e" name="Default" comment="">
+    <list default="true" id="cd1789bd-007b-4652-bc54-76a52349984e" name="Default" comment="history field fixed, (JSON parsing needed)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/bugzillaSchema.js" afterPath="$PROJECT_DIR$/models/bugzillaSchema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/products.js" afterPath="$PROJECT_DIR$/routes/products.js" />
     </list>
     <ignored path="issuesprovider.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,8 +88,8 @@
           <file leaf-file-name="products.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/routes/products.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
+                <state relative-caret-position="557">
+                  <caret line="150" column="58" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
                   <folding />
                 </state>
               </provider>
@@ -123,8 +123,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/models/bugSchema.js" />
         <option value="$PROJECT_DIR$/routes/services.js" />
-        <option value="$PROJECT_DIR$/routes/products.js" />
         <option value="$PROJECT_DIR$/models/bugzillaSchema.js" />
+        <option value="$PROJECT_DIR$/routes/products.js" />
       </list>
     </option>
   </component>
@@ -327,7 +327,7 @@
       <workItem from="1465445494813" duration="1000" />
       <workItem from="1465491190486" duration="17968000" />
       <workItem from="1465577425118" duration="8876000" />
-      <workItem from="1465586464800" duration="9397000" />
+      <workItem from="1465586464800" duration="9497000" />
     </task>
     <task id="LOCAL-00001" summary="The callback isn't finished yet, but variable holds all the wanted info">
       <created>1464379895441</created>
@@ -399,11 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465599051172</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="History bugs log added">
+      <created>1465599149348</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1465599149348</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130480000" />
+    <option name="totallyTimeSpent" value="130580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="-4" width="1841" height="1085" extended-state="6" />
@@ -411,7 +418,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15660685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39471006" sideWeight="0.50190324" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -448,7 +455,8 @@
     <MESSAGE value="Update Readme &#10;" />
     <MESSAGE value="Database updated, history array for bugzilla added" />
     <MESSAGE value="History bugs log added" />
-    <option name="LAST_COMMIT_MESSAGE" value="History bugs log added" />
+    <MESSAGE value="history field fixed, (JSON parsing needed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="history field fixed, (JSON parsing needed)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -689,8 +697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
+        <state relative-caret-position="557">
+          <caret line="150" column="58" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
           <folding />
         </state>
       </provider>
