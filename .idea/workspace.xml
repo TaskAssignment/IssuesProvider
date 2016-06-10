@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd1789bd-007b-4652-bc54-76a52349984e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/products.js" afterPath="$PROJECT_DIR$/routes/products.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/bugzillaSchema.js" afterPath="$PROJECT_DIR$/models/bugzillaSchema.js" />
     </list>
     <ignored path="issuesprovider.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +50,8 @@
           <file leaf-file-name="bugzillaSchema.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+                <state relative-caret-position="342">
+                  <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#40#0" expanded="false" />
                   </folding>
@@ -88,8 +88,8 @@
           <file leaf-file-name="products.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/routes/products.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="665">
-                  <caret line="158" column="49" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
+                <state relative-caret-position="629">
+                  <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -122,9 +122,9 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/models/bugSchema.js" />
-        <option value="$PROJECT_DIR$/models/bugzillaSchema.js" />
         <option value="$PROJECT_DIR$/routes/services.js" />
         <option value="$PROJECT_DIR$/routes/products.js" />
+        <option value="$PROJECT_DIR$/models/bugzillaSchema.js" />
       </list>
     </option>
   </component>
@@ -327,7 +327,7 @@
       <workItem from="1465445494813" duration="1000" />
       <workItem from="1465491190486" duration="17968000" />
       <workItem from="1465577425118" duration="8876000" />
-      <workItem from="1465586464800" duration="9279000" />
+      <workItem from="1465586464800" duration="9397000" />
     </task>
     <task id="LOCAL-00001" summary="The callback isn't finished yet, but variable holds all the wanted info">
       <created>1464379895441</created>
@@ -392,11 +392,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465598851448</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="History bugs log added">
+      <created>1465599051172</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1465599051172</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130362000" />
+    <option name="totallyTimeSpent" value="130480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="-4" width="1841" height="1085" extended-state="6" />
@@ -440,7 +447,8 @@
     <MESSAGE value="Update Readme and product.js endpoints" />
     <MESSAGE value="Update Readme &#10;" />
     <MESSAGE value="Database updated, history array for bugzilla added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database updated, history array for bugzilla added" />
+    <MESSAGE value="History bugs log added" />
+    <option name="LAST_COMMIT_MESSAGE" value="History bugs log added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,16 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -679,10 +677,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="158" column="49" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
+        <state relative-caret-position="629">
+          <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
           <folding />
         </state>
       </provider>
