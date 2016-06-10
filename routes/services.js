@@ -10,7 +10,7 @@ var githubURL    = "https://api.github.com/";
 var githubClientID = "396b2089a7431c038c65";
 var githubSecretID = "78b41c6b6941d12a01c409a499662d5096d7588a";
 
-mongoose.connect('mongodb://localhost/issueprovider');
+mongoose.connect('mongodb://heroku_7r444rng:1i71qc222o89omdlqjjeusmkfb@ds013024.mlab.com:13024/heroku_7r444rng');
 
 var repoSchema = require('../models/repoSchema');
 var bugSchema  = require('../models/bugSchema');

@@ -85,6 +85,11 @@ router.get('/:service/:product/:component/repos',function(req,res){
 
 router.get('/:service/:product/:component/bugs',function (req,res) {
     var url = "";
+    var doCall = function (langURL, callback) {
+        request.get(langURL, function (err,res,body) {
+            callback(body);
+        });
+    };
     switch (req.params.service){
         case "bugparty":
             url += bugpartyURL;
@@ -141,6 +146,12 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
                         bug.version = body[n].version;
                         bug.op_sys  = body[n].op_sys;
                         bug.product = body[n].product;
+
+                        var saveRepostoArray = function(history){
+                            bug.history = history.bugs;
+                        };
+
+                        doCall("https://bugzilla.mozilla.org/rest/bug/"+body[n].id+"/history", saveRepostoArray);
 
                         var bugs = new bugzillaModel(bug);
                         bugs.save(function(err){

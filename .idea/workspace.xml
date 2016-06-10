@@ -3,13 +3,15 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="28" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="85" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="160" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="171" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd1789bd-007b-4652-bc54-76a52349984e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/bugzillaSchema.js" afterPath="$PROJECT_DIR$/models/bugzillaSchema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/products.js" afterPath="$PROJECT_DIR$/routes/products.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/services.js" afterPath="$PROJECT_DIR$/routes/services.js" />
     </list>
     <ignored path="issuesprovider.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,15 +31,15 @@
     <favorites_list name="issuesprovider" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47511613">
+    <splitter split-orientation="horizontal" split-proportion="0.44258064">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="428">
-                    <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+                  <first_editor relative-caret-position="824">
+                    <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -48,27 +50,39 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="bugzillaSchema.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="21" column="19" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#0#40#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-55">
-                  <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+                <state relative-caret-position="648">
+                  <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/routes/services.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+                <state relative-caret-position="-864">
+                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding>
-                    <element signature="e#1037#1376#0" expanded="false" />
+                    <element signature="e#1096#1435#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -77,8 +91,8 @@
           <file leaf-file-name="products.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/routes/products.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="683">
-                  <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+                <state relative-caret-position="2682">
+                  <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -101,19 +115,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/models/bugSchema.js" />
         <option value="$PROJECT_DIR$/models/userSchema..js" />
         <option value="$PROJECT_DIR$/routes/api.js" />
         <option value="$PROJECT_DIR$/Endpoints-Docs.txt" />
         <option value="$PROJECT_DIR$/models/userSchema.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/models/bugzillaSchema.js" />
         <option value="$PROJECT_DIR$/models/repoSchema.js" />
-        <option value="$PROJECT_DIR$/routes/services.js" />
         <option value="$PROJECT_DIR$/Endpoints-Docs.md" />
-        <option value="$PROJECT_DIR$/routes/products.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/models/bugSchema.js" />
+        <option value="$PROJECT_DIR$/models/bugzillaSchema.js" />
+        <option value="$PROJECT_DIR$/routes/products.js" />
+        <option value="$PROJECT_DIR$/routes/services.js" />
       </list>
     </option>
   </component>
@@ -184,7 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,7 +330,7 @@
       <workItem from="1465445494813" duration="1000" />
       <workItem from="1465491190486" duration="17968000" />
       <workItem from="1465577425118" duration="8876000" />
-      <workItem from="1465586464800" duration="4161000" />
+      <workItem from="1465586464800" duration="7563000" />
     </task>
     <task id="LOCAL-00001" summary="The callback isn't finished yet, but variable holds all the wanted info">
       <created>1464379895441</created>
@@ -360,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465590453211</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update Readme &#10;">
+      <created>1465590934019</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1465590934019</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125244000" />
+    <option name="totallyTimeSpent" value="128646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="-4" width="1841" height="1085" extended-state="6" />
@@ -406,7 +427,8 @@
     <MESSAGE value="The users endpoint for products has been updated" />
     <MESSAGE value="Removed logs, updated package.json" />
     <MESSAGE value="Update Readme and product.js endpoints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Readme and product.js endpoints" />
+    <MESSAGE value="Update Readme &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,7 +482,7 @@
         <state relative-caret-position="216">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
-            <element signature="e#1037#1376#0" expanded="false" />
+            <element signature="e#1096#1435#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -523,7 +545,7 @@
         <state relative-caret-position="5778">
           <caret line="328" column="66" selection-start-line="328" selection-start-column="66" selection-end-line="328" selection-end-column="66" />
           <folding>
-            <element signature="e#1037#1376#0" expanded="false" />
+            <element signature="e#1096#1435#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -550,13 +572,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/bugSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="743">
@@ -578,34 +593,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="e#1037#1376#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/repoSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/userSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -622,18 +609,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/products.js">
+    <entry file="file://$PROJECT_DIR$/models/repoSchema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/models/bugSchema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -641,8 +628,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="428">
-            <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <first_editor relative-caret-position="824">
+            <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
@@ -650,6 +637,42 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2682">
+          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#1096#1435#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

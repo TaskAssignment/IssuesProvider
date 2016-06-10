@@ -19,6 +19,7 @@ var user = new Schema({
     creationTime   : String,
     assignedEmail  : String,
     creatorEmail   : String,
+    history : Array,
     cc      : String,
     version : String,
     op_sys  : String,
