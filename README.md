@@ -36,6 +36,9 @@
    http://localhost:3000/api/v1/eclipse/:product/:component/users
    http://localhost:3000/api/v1/bugparty/:product/:component/repos
    
+   
+   ## Entreprise url's
+   
    ** BITBUCKET URLS **
 
    https://api.bitbucket.org/2.0/repositories/abram
@@ -60,10 +63,8 @@
 
    ** BUGZILLA URLS **
 
-   https://bugzilla.mozilla.org/rest/product?names=firefox
-   https://bugzilla.mozilla.org/rest/product?names=Thunderbird
-   https://bugzilla.mozilla.org/rest/bug?id=12434,43421
-   https://bugzilla.mozilla.org/rest/product?names=bugzilla
-   https://bugzilla.mozilla.org/rest/bug?id=2436  
-   
+   https://bugzilla.mozilla.org/rest/user?names=lhenry@mozilla.com
    https://bugzilla.mozilla.org/rest/bug?component=Activity%20Streams%3A%20Timeline&product=Firefox
+   https://bugzilla.mozilla.org/rest/product/firefox
+   https://bugzilla.mozilla.org/rest/bug?assigned_to=lhenry@mozilla.com
+   

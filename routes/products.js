@@ -161,7 +161,6 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
 router.get("/:service/:product/:component/users",function(req,res){
     var url = "";
     switch (req.params.service){
-
         case "bugparty":
             url += bugpartyURL;
             url += req.params.repo+"/topics/alldates";
