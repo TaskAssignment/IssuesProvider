@@ -156,6 +156,7 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
                                     console.log("error!");
                                 console.log("saved!")
                             });
+                            console.log(history);
                         };
 
 

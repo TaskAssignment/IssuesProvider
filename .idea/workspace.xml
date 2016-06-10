@@ -3,13 +3,12 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="28" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="85" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="173" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="174" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd1789bd-007b-4652-bc54-76a52349984e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/products.js" afterPath="$PROJECT_DIR$/routes/products.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/services.js" afterPath="$PROJECT_DIR$/routes/services.js" />
     </list>
     <ignored path="issuesprovider.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +88,8 @@
           <file leaf-file-name="products.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/routes/products.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="647">
-                  <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
+                <state relative-caret-position="665">
+                  <caret line="158" column="49" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -328,7 +327,7 @@
       <workItem from="1465445494813" duration="1000" />
       <workItem from="1465491190486" duration="17968000" />
       <workItem from="1465577425118" duration="8876000" />
-      <workItem from="1465586464800" duration="9098000" />
+      <workItem from="1465586464800" duration="9279000" />
     </task>
     <task id="LOCAL-00001" summary="The callback isn't finished yet, but variable holds all the wanted info">
       <created>1464379895441</created>
@@ -386,11 +385,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465597333616</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Database updated, history array for bugzilla added">
+      <created>1465598851448</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1465598851448</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130181000" />
+    <option name="totallyTimeSpent" value="130362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="-4" width="1841" height="1085" extended-state="6" />
@@ -675,8 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
+        <state relative-caret-position="665">
+          <caret line="158" column="49" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
           <folding />
         </state>
       </provider>
