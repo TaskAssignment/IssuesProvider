@@ -1,0 +1,69 @@
+extends layout
+
+block content
+
+  .container
+    .wrapper
+      h1
+        strong issuesProvider
+
+      p Welcome to the provider of issues and collaborators for a given user or repository
+
+
+      h3.text-center List of routes
+        p The api is under "/api/v1"
+
+
+      h2 Services
+      .well
+        ul
+          li /api/v1/service/:service/:user/repos
+          li /api/v1/service/:service/:user/:repo/bugs
+          li /api/v1/service/:service/:user/:repo/users
+
+      h3 List of services
+      ul
+          li github
+          li bitbucket
+          li gitlab
+
+      h2 Products
+
+      .well
+           ul
+               li /api/v1/product/:product/:component/bugs
+               li /api/v1/product/:product/:project/bugs
+
+      h3 List of products
+      ul
+          li bugparty
+          li bugzilla
+          li eclipse
+
+         br
+
+      h3 Examples
+      .well
+        ul
+          li /api/v1/github/robfz/repos
+          li /api/v1/gitlab/2rbdPSvGXzbxYSCUoszC/repos
+          li /api/v1/bitbucket/abram
+        ul
+          li /api/v1/gitlab/2rbdPSvGXzbxYSCUoszC/1206370/bugs
+          li /api/v1/github/rails/rails/bugs
+          li /api/v1/bitbucket/zdr00/menubarmac/bugs
+
+      br
+
+      h3 Important
+
+      p for the gitlab service you don't have to provide your username but your access_token you can grab it at
+      p.well  "https://gitlab.com/profile/account" or "/api/v1/gitlab/token/:user/password/"
+      p There is also a url to login at gitlab "/gitlab/token/:user/password/" to get the private_token of a user
+      br
+      p "*bugparty" needs to be deployed to the cloud before using it
+      p for "bugparty" endpoints provide "#" instead of the user and the project instead of repoid
+      p "bugparty" provides a bit different information about the repos
+      br
+      p "*bugzilla" bugs need to be specified by product for example "bugzilla" or "thunderbird"
+      p the bugzila
