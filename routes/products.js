@@ -159,9 +159,9 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
     });
 });
 
-router.get("/:product/:name/:service/users",function(req,res){
+router.get("/:service/:product/:component/users",function(req,res){
     var url = "";
-    switch (req.params.product){
+    switch (req.params.service){
 
         case "bugparty":
             url += bugpartyURL;
@@ -173,7 +173,7 @@ router.get("/:product/:name/:service/users",function(req,res){
             break;
     }
     request(url, function(error, response, body){
-        switch (req.params.product){
+        switch (req.params.service){
             case "bugparty":
                 break;
             case "bugzilla":
