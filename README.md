@@ -1,4 +1,4 @@
-## Endpoints  docs 
+## Endpoints docs 
    
    ** Functions of the API **
    
@@ -15,7 +15,7 @@
    
         - project and service 
  
-   ** GET_BUG URLS **
+   ** GET_BUG ENDPOINTS **
    
    http://issuesprovider.herokuapp.com/api/v1/gitlab/2rbdPSvGXzbxYSCUoszC/1206370/bugs
    
@@ -27,20 +27,21 @@
    http://localhost:3000/api/v1/service/bitbucket/zdr00/menubarmac/bugs
    http://localhost:3000/api/v1/service/github/rails/rails/bugs
    
-      -- dev --
-   
-   http://localhost:3000/api/v1/service/github/rails/rails/users
-   http://localhost:3000/api/v1/service/gitlab/2rbdPSvGXzbxYSCUoszC/1206370/users
-   http://localhost:3000/api/v1/service/bitbucket/zdr00/menubarmac/users
    
    ** GET_CAND_DEVS(project) **
    
+   -- dev --
+      
+   http://localhost:3000/api/v1/service/github/rails/rails/users
+   http://localhost:3000/api/v1/service/gitlab/2rbdPSvGXzbxYSCUoszC/1206370/users
+   http://localhost:3000/api/v1/service/bitbucket/zdr00/menubarmac/users
+      
    http://localhost:3000/api/v1/bugzilla/:product/:component/bugs
    http://localhost:3000/api/v1/eclipse/:product/:component/users
    http://localhost:3000/api/v1/bugparty/:product/:component/repos
    
    
-## Entreprise url's
+## Enterprise url's
    
    ** BITBUCKET URLS **
 
