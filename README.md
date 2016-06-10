@@ -2,6 +2,9 @@
    
    ** Functions of the API **
    
+   The service is running on https://issuesprovider.herokuapp.com/ and the routes that can 
+   be called in order to save the information to the database  is listed below. 
+   
    - get_bug(#,project,criteria)
         
         - # > number of bugs
@@ -37,7 +40,7 @@
    http://localhost:3000/api/v1/bugparty/:product/:component/repos
    
    
-   ## Entreprise url's
+## Entreprise url's
    
    ** BITBUCKET URLS **
 
