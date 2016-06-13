@@ -3,11 +3,12 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="28" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="85" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="175" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="174" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1789bd-007b-4652-bc54-76a52349984e" name="Default" comment="">
+    <list default="true" id="cd1789bd-007b-4652-bc54-76a52349984e" name="Default" comment="history array fixed">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/bugzillaSchema.js" afterPath="$PROJECT_DIR$/models/bugzillaSchema.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/products.js" afterPath="$PROJECT_DIR$/routes/products.js" />
     </list>
     <ignored path="issuesprovider.iws" />
@@ -51,7 +52,7 @@
             <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="342">
-                  <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+                  <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#40#0" expanded="false" />
                   </folding>
@@ -89,7 +90,7 @@
             <entry file="file://$PROJECT_DIR$/routes/products.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="557">
-                  <caret line="150" column="44" selection-start-line="150" selection-start-column="44" selection-end-line="150" selection-end-column="44" />
+                  <caret line="150" column="54" selection-start-line="150" selection-start-column="54" selection-end-line="150" selection-end-column="54" />
                   <folding />
                 </state>
               </provider>
@@ -328,7 +329,7 @@
       <workItem from="1465491190486" duration="17968000" />
       <workItem from="1465577425118" duration="8876000" />
       <workItem from="1465586464800" duration="9745000" />
-      <workItem from="1465837635816" duration="2213000" />
+      <workItem from="1465837635816" duration="2326000" />
     </task>
     <task id="LOCAL-00001" summary="The callback isn't finished yet, but variable holds all the wanted info">
       <created>1464379895441</created>
@@ -442,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465839337247</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="history array fixed">
+      <created>1465839856837</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1465839856837</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133041000" />
+    <option name="totallyTimeSpent" value="133154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="-4" width="1841" height="1085" extended-state="6" />
@@ -454,6 +462,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15660685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39471006" sideWeight="0.50190324" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -463,7 +472,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -494,7 +502,8 @@
     <MESSAGE value="history field fixed, (JSON parsing needed)" />
     <MESSAGE value="History for each bug added" />
     <MESSAGE value="updated History for each bug added" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated History for each bug added" />
+    <MESSAGE value="history array fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="history array fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -768,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
@@ -778,7 +787,7 @@
     <entry file="file://$PROJECT_DIR$/routes/products.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
-          <caret line="150" column="44" selection-start-line="150" selection-start-column="44" selection-end-line="150" selection-end-column="44" />
+          <caret line="150" column="54" selection-start-line="150" selection-start-column="54" selection-end-line="150" selection-end-column="54" />
           <folding />
         </state>
       </provider>
