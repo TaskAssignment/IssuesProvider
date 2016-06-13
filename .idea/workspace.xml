@@ -3,12 +3,11 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="28" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="85" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="174" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/routes/products.js" line="175" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd1789bd-007b-4652-bc54-76a52349984e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/bugzillaSchema.js" afterPath="$PROJECT_DIR$/models/bugzillaSchema.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/products.js" afterPath="$PROJECT_DIR$/routes/products.js" />
     </list>
     <ignored path="issuesprovider.iws" />
@@ -52,7 +51,7 @@
             <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="342">
-                  <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+                  <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
                   <folding>
                     <element signature="e#0#40#0" expanded="false" />
                   </folding>
@@ -90,7 +89,7 @@
             <entry file="file://$PROJECT_DIR$/routes/products.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="557">
-                  <caret line="150" column="53" selection-start-line="150" selection-start-column="53" selection-end-line="150" selection-end-column="53" />
+                  <caret line="150" column="44" selection-start-line="150" selection-start-column="44" selection-end-line="150" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -124,8 +123,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/models/bugSchema.js" />
         <option value="$PROJECT_DIR$/routes/services.js" />
-        <option value="$PROJECT_DIR$/routes/products.js" />
         <option value="$PROJECT_DIR$/models/bugzillaSchema.js" />
+        <option value="$PROJECT_DIR$/routes/products.js" />
       </list>
     </option>
   </component>
@@ -329,7 +328,7 @@
       <workItem from="1465491190486" duration="17968000" />
       <workItem from="1465577425118" duration="8876000" />
       <workItem from="1465586464800" duration="9745000" />
-      <workItem from="1465837635816" duration="1699000" />
+      <workItem from="1465837635816" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="The callback isn't finished yet, but variable holds all the wanted info">
       <created>1464379895441</created>
@@ -436,11 +435,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465838935637</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated History for each bug added">
+      <created>1465839337247</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1465839337247</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132527000" />
+    <option name="totallyTimeSpent" value="133041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="-4" width="1841" height="1085" extended-state="6" />
@@ -759,21 +765,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="150" column="53" selection-start-line="150" selection-start-column="53" selection-end-line="150" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/bugzillaSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="150" column="44" selection-start-line="150" selection-start-column="44" selection-end-line="150" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
