@@ -19,7 +19,7 @@ var user = new Schema({
     creationTime   : String,
     assignedEmail  : String,
     creatorEmail   : String,
-    history : Schema.Types.Mixed,
+    history : [],
     cc      : String,
     version : String,
     op_sys  : String,

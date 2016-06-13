@@ -148,7 +148,7 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
                             bug.version = body[n].version;
                             bug.op_sys  = body[n].op_sys;
                             bug.product = body[n].product;
-                            bug.history = history;
+                            bug.history.push(history);
 
                             var bugs = new bugzillaModel(bug);
                             bugs.save(function(err){
