@@ -41,12 +41,12 @@ router.get('/gitlab/token/:user/:password', function(req,res,next){
 router.get("/:service/:id/repos", function(req,res){
 
     var url = "";
-    /*
+
     var doCall = function (langURL, callback) {
         request.get(langURL, function (err,res,body) {
             callback(body);
         });
-    };*/
+    };
 
     switch (req.params.service) {
         case "github":
@@ -81,43 +81,40 @@ router.get("/:service/:id/repos", function(req,res){
                     var x = 0;
                     for(x in body){
 
-                        var repo = new Object();
-                        repo.id        = body[x].id;
-                        repo.name      = body[x].name;
-                        repo.full_name = body[x].full_name;
-                        repo.description = body[x].description;
-                        repo.url         = body[x].html_url;
-                        repo.service     = "github"
-                        repo.languages   = body[x].lang_url;
-
-                        /* Creates the model to save to database */
-                        var myRepo = new repoModel(repo);
-                        myRepo.save(function(err){
-                            if(err)
-                                console.log("error saving!");
-                            //console.log("saved!");
-                        });
-
-                        /*
                         var langURL =
                         {
                             url: githubURL + "repos/"
-                                 +req.params.id+"/"
-                                 +body[x].name+"/languages?client_id="
-                                 +githubClientID+"&client_secret="
-                                 +githubSecretID+"&per_page=10",
+                            +req.params.id+"/"
+                            +body[x].name+"/languages?client_id="
+                            +githubClientID+"&client_secret="
+                            +githubSecretID+"&per_page=10",
                             headers: {
                                 'User-Agent': 'zdr00'
                             }
                         };
 
                         var saveRepostoArray = function(lang){
-                            //console.log(lang);
-                            console.log(x);
 
-                        };*/
+                            var repo = new Object();
+                            repo.id        = body[x].id;
+                            repo.name      = body[x].name;
+                            repo.full_name = body[x].full_name;
+                            repo.description = body[x].description;
+                            repo.url         = body[x].html_url;
+                            repo.service     = "github"
+                            repo.languages   = lang;
 
-                        //doCall(langURL, saveRepostoArray);
+                            /* Creates the model to save to database */
+                            var myRepo = new repoModel(repo);
+                            myRepo.save(function(err){
+                                if(err)
+                                    console.log("error saving!");
+                                console.log("saved!");
+                            });
+                        };
+
+
+                        doCall(langURL, saveRepostoArray);
 
                     }
                     break;
@@ -140,7 +137,7 @@ router.get("/:service/:id/repos", function(req,res){
                                 console.log("error saving!");
                             console.log("saved!");
                         });
-                        issuesArray.push(gitrepo);
+                        //issuesArray.push(gitrepo);
                     }
                     break;
 
@@ -162,7 +159,7 @@ router.get("/:service/:id/repos", function(req,res){
                                 console.log("error saving!");
                             console.log("saved!");
                         });
-                        issuesArray.push(repo);
+                        //issuesArray.push(repo);
                     }
                     break;
 

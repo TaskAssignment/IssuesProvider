@@ -3,7 +3,7 @@
  */
 
 var mongoose = require("mongoose");
-var Schema = mongoose.Schema;
+var Schema   = mongoose.Schema;
 
 var user = new Schema({
     id      : String,
@@ -32,4 +32,3 @@ var user = new Schema({
  comments     (indirectly, by repository)
  */
 module.exports = user;
-

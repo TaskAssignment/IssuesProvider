@@ -7,7 +7,6 @@ var bugzillaURL  = "https://bugzilla.mozilla.org/rest/";
 var bugpartyURL  = "http://localhost:8080/bugparty/";
 var eclipseURL   = "";
 
-
 var repoSchema = require('../models/repoSchema');
 var bugSchema  = require('../models/bugSchema');
 var userSchema = require('../models/userSchema');
@@ -19,14 +18,12 @@ var bugModel  = mongoose.model('bugs', bugSchema);
 var userModel = mongoose.model('users',userSchema);
 var bugzillaModel = mongoose.model('bugzilla',bugzillaSchema);
 
-
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   res.send('This is the endpoint for products (BugParty, Mozilla, Eclipse)');
 });
 
-
-router.get('/:service/:product/:component/repos',function(req,res){
+router.get('/:service/:product/repos',function(req,res){
 
     var url = "";
 
@@ -37,7 +34,7 @@ router.get('/:service/:product/:component/repos',function(req,res){
             break;
         case "bugzilla":
             url += bugzillaURL;
-            url += "product?names="+req.params.id;
+            url += "product?names="+req.params.product;
             break;
         case "eclipse":
             url += "";
@@ -54,7 +51,6 @@ router.get('/:service/:product/:component/repos',function(req,res){
             switch (req.params.service){
                 case "bugparty":
                     break;
-
                 case "bugzilla":
                     var body =  body.products[0].components;
                     var m;
@@ -65,11 +61,11 @@ router.get('/:service/:product/:component/repos',function(req,res){
                         component.description = body[m].description;
                         component.full_name   = body[m].default_assigned_to;
                         var myRepo = new repoModel(component);
-                        myRepo.save(function(err){
-                            if(err)
-                                console.log("error saving!");
-                            console.log("saved!");
-                        });
+                            myRepo.save(function(err){
+                                if(err)
+                                    console.log("error saving!");
+                                console.log("saved!");
+                            });
                     }
                     break;
                 case "eclipse":
@@ -148,7 +144,7 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
                             bug.version = body[n].version;
                             bug.op_sys  = body[n].op_sys;
                             bug.product = body[n].product;
-                            history = JSON.parse(history)
+                            history     = JSON.parse(history);
                             bug.history = history.bugs;
 
                             var bugs = new bugzillaModel(bug);
@@ -170,7 +166,7 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
     });
 });
 
-router.get("/:service/:product/:component/users",function(req,res){
+router.get('/:service/:product/:component/users',function(req,res){
     var url = "";
     switch (req.params.service){
         case "bugparty":
