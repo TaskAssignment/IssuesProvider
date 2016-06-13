@@ -148,17 +148,16 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
                             bug.version = body[n].version;
                             bug.op_sys  = body[n].op_sys;
                             bug.product = body[n].product;
+                            history = JSON.parse(history)
                             bug.history = history.bugs;
 
                             var bugs = new bugzillaModel(bug);
-                            bugs.save(function(err){
-                                if(err)
-                                    console.log("error!");
-                                console.log("saved!")
-                            });
+                                bugs.save(function(err){
+                                    if(err)
+                                        console.log("error!");
+                                    console.log("saved!")
+                                });
                         };
-
-
 
                         doCall("https://bugzilla.mozilla.org/rest/bug/"+body[n].id+"/history", saveRepostoArray);
                     }
