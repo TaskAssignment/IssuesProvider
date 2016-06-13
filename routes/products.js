@@ -148,7 +148,7 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
                             bug.version = body[n].version;
                             bug.op_sys  = body[n].op_sys;
                             bug.product = body[n].product;
-                            bug.history = history.bugs;
+                            bug.history = history;
 
                             var bugs = new bugzillaModel(bug);
                             bugs.save(function(err){
@@ -165,7 +165,7 @@ router.get('/:service/:product/:component/bugs',function (req,res) {
                     }
                     break;
             }
-            res.send("The bugs from bugzilla: product"+req.params.product+" are now saved to the db");
+            res.send("The bugs from bugzilla: the product "+req.params.product+" are now saved to the db");
         }else{
             res.send("There was en error!");
         }
